@@ -4,7 +4,7 @@ import Hero from "./pages/hero/Hero";
 import "../src/App.css";
 const Home = () => {
   return (
-    <div className="home">
+    <div className="bg-navbar">
       <NavBar />
       <Hero />
     </div>

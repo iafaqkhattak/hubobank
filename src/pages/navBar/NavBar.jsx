@@ -7,8 +7,8 @@ export default function NavBar() {
         <img src={logoImg} alt="logo here" />
       </div>
 
-      <div className=" nav-text me-5 w-50 d-flex flex-row align-items-center justify-content-end">
-        <ul className="  my-0 w-50 d-flex flex-row list-unstyled align-items-center justify-content-between">
+      <div className="  me-5 w-75 d-flex flex-row align-items-center justify-content-end">
+        <ul className=" navbar-style my-0 w-50 d-flex flex-row list-unstyled align-items-center justify-content-between">
           <li className=" ">Home</li>
           <li>About Us</li>
           <li>Features</li>
