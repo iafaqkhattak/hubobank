@@ -71,7 +71,7 @@
   border-right: 1px solid white;
 }
 
-span {
+.users {
   font-family: Poppins;
   font-weight: 700;
   background: radial-gradient(
@@ -93,4 +93,45 @@ span {
   font-weight: 600;
   font-family: Poppins;
   font-size: 30px;
+}
+
+.work-h2 {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+}
+.work-para {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.how-we-work-main {
+  padding-left: 80px;
+}
+
+.get-started-btn {
+  width: 170px;
+  height: 64px;
+  border-radius: 10px;
+  background: linear-gradient(
+    158deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.get-started-txt {
+  color: #00040e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  align-content: center;
 }

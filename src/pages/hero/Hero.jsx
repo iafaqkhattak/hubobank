@@ -4,8 +4,8 @@ import frame1 from "../images/Frame 1.png";
 import getStarted from "../images/getStarted.png";
 export default function Hero() {
   return (
-    <div className="container-fluid vh-100">
-      <div className="row h-100">
+    <div className="container-fluid">
+      <div className="row vh-100">
         <div className="h-100 col-lg-6 d-flex align-items-center justify-content-center ">
           <div className="d-flex flex-column align-items-center justify-content-center col-lg-9 get-started-main ">
             <div className="d-flex align-self-start text-white rounded-5 px-2 align-items-center justify-content-start bg-dark">
@@ -43,7 +43,7 @@ export default function Hero() {
         <div className="col-lg-12 d-flex flex-row align-items-center justify-content-center">
           <div className="me-4 d-flex flex-row align-items-center justify-content-center">
             <h4 className="my-0 me-3 users-style"> 3800+</h4>
-            <span className="pe-5 my-0 border-right-1 right-bordered-span">
+            <span className="users pe-5 my-0 border-right-1 right-bordered-span">
               Users
             </span>
           </div>
