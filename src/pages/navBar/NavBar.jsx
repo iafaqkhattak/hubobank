@@ -2,7 +2,7 @@ import React from "react";
 import logoImg from "../images/Logo.png";
 export default function NavBar() {
   return (
-    <div className="pt-1 bg-col d-flex flex-row justify-content-between">
+    <div className="px-5  pt-1 bg-col d-flex flex-row justify-content-between">
       <div className="">
         <img src={logoImg} alt="logo here" />
       </div>
