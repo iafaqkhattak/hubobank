@@ -5,7 +5,7 @@ import tele from "../images/tele.png";
 
 const HowWeWork = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid mb-5">
       <div className="row vh-100 how-we-work-main">
         <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center   ">
           <div className="">

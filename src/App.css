@@ -322,3 +322,46 @@
   );
   color: #fff; /* Change this color to your desired hover text color */
 }
+
+.paypal-main {
+  position: relative;
+}
+
+.paypal-position {
+  position: absolute;
+  right: 47px;
+  top: -60px;
+}
+.great-position {
+  position: absolute;
+  bottom: 165px;
+  right: 5px;
+}
+.great {
+  z-index: 1;
+}
+
+.charges-w {
+  width: 67%;
+}
+.paypal-w {
+  width: 50%;
+}
+.great-w {
+  width: 50%;
+}
+
+.control-title {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+}
+.control-para {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
