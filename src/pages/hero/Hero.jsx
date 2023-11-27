@@ -49,13 +49,13 @@ export default function Hero() {
           </div>
           <div className="me-4  d-flex flex-row align-items-center justify-content-center">
             <h4 className="my-0 me-3 users-style"> 230+</h4>
-            <span className="pe-5 my-0 border-right-1 right-bordered-span">
+            <span className="pe-5 my-0 border-right-1 right-bordered-span users">
               TRUSTED BY COMPANY
             </span>
           </div>
           <div className=" me-4  d-flex flex-row align-items-center justify-content-center">
             <h4 className="my-0 me-3 users-style"> $230M+</h4>
-            <span className="pe-5 my-0 border-right-1 ">TRANSACTION</span>
+            <span className="pe-5 my-0 border-right-1 users ">TRANSACTION</span>
           </div>
         </div>
       </div>

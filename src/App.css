@@ -162,3 +162,163 @@
 
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
+
+.trc-txt {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.trc-h2 {
+  color: #fff;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.trc-p {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.trc-h3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+.card-trans {
+  width: 335px;
+  height: 280px;
+
+  border-radius: 9.121px;
+  background: linear-gradient(113deg, #fff -242.51%, #14101d 85.56%);
+
+  box-shadow: -0.24322px -0.24322px 0.36483px 0px rgba(0, 0, 0, 0.36) inset;
+  backdrop-filter: blur(15.201066017150879px);
+}
+
+.circular-div {
+  width: 40px;
+  height: 40px;
+  background-color: #f3f3f3; /* Change the background color as needed */
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Change the text color as needed */
+  font-weight: bold;
+}
+
+.paypal-txt {
+  color: #fff;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 30px;
+}
+
+.checkout-txt {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.paypal-bg {
+  border-radius: 10px;
+  background: linear-gradient(111deg, #fff -265.46%, #14101d 96.75%);
+  box-shadow: 4px 6px 30px 0px rgba(19, 36, 46, 0.25);
+}
+
+.change-btn-main {
+  width: 85px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-btn {
+  position: relative;
+  background-color: transparent;
+  border: 2px solid;
+  border-image: linear-gradient(
+    158deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  border-image-slice: 1;
+  color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.change-btn::before {
+  content: "Change";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    158deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.make-payment-btn {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(
+    158deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  color: #00030d;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease; /* Add a smooth transition effect on hover */
+}
+
+.make-payment-btn:hover {
+  background: linear-gradient(
+    158deg,
+    #33bbcf -43.27%,
+    #5ce1e6 -21.24%,
+    #7de7eb 12.19%,
+    #9dedf0 29.82%,
+    #bef3f5 51.94%,
+    #def9fa 90.29%
+  );
+  color: #fff; /* Change this color to your desired hover text color */
+}

@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from "./pages/navBar/NavBar";
 import Hero from "./pages/hero/Hero";
 import HowWeWork from "./pages/howWeWork/HowWeWork";
+import Downloads from "./pages/downloads/Downloads";
+
 import "../src/App.css";
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
       <NavBar />
       <Hero />
       <HowWeWork />
+      <Downloads />
     </div>
   );
 };
