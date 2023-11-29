@@ -3,6 +3,7 @@ import NavBar from "./pages/navBar/NavBar";
 import Hero from "./pages/hero/Hero";
 import HowWeWork from "./pages/howWeWork/HowWeWork";
 import Downloads from "./pages/downloads/Downloads";
+import CardDeals from "./pages/cardDeals/CardDeals";
 
 import "../src/App.css";
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <HowWeWork />
       <Downloads />
+      <CardDeals />
     </div>
   );
 };
