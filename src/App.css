@@ -413,3 +413,41 @@
     #33bbcf 90.29%
   );
 }
+
+.scan-logo {
+  border-radius: 10px;
+  background: #00030c;
+  width: 38px;
+  height: 38px;
+}
+
+.scan-title {
+  color: #fff;
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.scan-credits {
+  border-radius: 20px;
+  background: linear-gradient(
+    122deg,
+    #fff -264.89%,
+    #6d6d6d -77.96%,
+    #11101d 80.93%
+  );
+
+  backdrop-filter: blur(5px);
+}
+
+.scan-para {
+  color: rgba(255, 255, 255, 0.7);
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  width: 200px;
+}

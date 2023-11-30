@@ -1,4 +1,5 @@
 import React from "react";
+import Scan from "../images/Scan.svg";
 
 const CardDeals = () => {
   return (
@@ -24,7 +25,29 @@ const CardDeals = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6"></div>
+        <div className=" col-lg-6 Right-Deals d-flex align-items-center  justify-content-center bg-warning">
+          <div className="scan-credits p-5 d-flex flex-column align-items-center">
+            <div className="scan-logo d-flex justify-content-center">
+              <img className=" w-75 " src={Scan} alt="scanner logo" />
+            </div>
+            <div className="my-3">
+              <h2 className="scan-title">Scan Credit Cards</h2>
+            </div>
+            <div>
+              <p className="scan-para">
+                Scan yourcredit card in <br /> 4 minutes.
+              </p>
+            </div>
+          </div>
+          <div className="pay-method d-flex flex-column border align-items-center justify-content-center bg-danger w-50 h-50">
+            <div className="txt+poly d-flex w-100 flex-row align-items-center  justify-content-between">
+              <div className="txt">Paymethod</div>
+              <div>Polygon</div>
+            </div>
+
+            <div className="logos"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
