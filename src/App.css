@@ -568,3 +568,66 @@
   border-radius: 5px;
   background: var(--bttn, linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%));
 }
+
+.aboutus-para {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.aboutus-para-2 {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card1 {
+  border-radius: 20px;
+  background: linear-gradient(
+    144deg,
+    #fff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  width: 370px;
+  height: 395px;
+  backdrop-filter: blur(5px);
+}
+
+.card2 {
+  width: 370px;
+  height: 395px;
+  border-radius: 20px;
+}
+
+.card-para {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.founder-para {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.founder-tag {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 100;
+}
