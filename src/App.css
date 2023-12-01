@@ -438,7 +438,8 @@
     #6d6d6d -77.96%,
     #11101d 80.93%
   );
-
+  position: absolute;
+  left: 10px;
   backdrop-filter: blur(5px);
 }
 
@@ -467,6 +468,7 @@
   background: linear-gradient(140deg, #fff -277.16%, #14101d 66.28%);
   backdrop-filter: blur(5px);
   position: absolute;
+  bottom: 10px;
 }
 
 .payment-method-para {
@@ -481,4 +483,88 @@
 
 .Right-Deals {
   position: relative;
+}
+.deals-bg-img {
+  background-image: url("./pages/images/rings.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-resolution: 10%;
+}
+
+.Online-analysis {
+  position: absolute;
+  width: 300px;
+  height: 258px;
+  border-radius: 20px;
+  background: linear-gradient(137deg, #fff -248.55%, #14101d 65.59%),
+    rgba(196, 196, 196, 0.4);
+  right: 10px;
+}
+
+.analysis-txt {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+.month-h2 {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.income-price {
+  color: #00d2aa;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.income-txt {
+  color: #00d2aa;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.expense-price {
+  color: #00d9f5;
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+.expense-txt {
+  color: #00d9f5;
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.months-h4 {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-family: Poppins;
+  font-size: 12px;
+
+  font-weight: 400;
+}
+
+.month-mar {
+  width: 28px;
+  height: 21px;
+  font-size: 10px;
+  border-radius: 5px;
+  background: var(--bttn, linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%));
 }

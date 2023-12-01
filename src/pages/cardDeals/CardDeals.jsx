@@ -5,6 +5,7 @@ import Paypal from "../images/paypal.svg";
 import Apple from "../images/apple.svg";
 import Visa from "../images/visa.svg";
 import Shopify from "../images/Shopify.svg";
+import Victor1 from "../images/Frame3.png";
 
 const CardDeals = () => {
   return (
@@ -30,8 +31,8 @@ const CardDeals = () => {
             </div>
           </div>
         </div>
-        <div className=" col-lg-6 Right-Deals d-flex align-items-start  justify-content-center bg-warning">
-          <div className="scan-credits p-5 d-flex flex-column align-items-center">
+        <div className=" col-lg-6 Right-Deals deals-bg-img d-flex align-items-center justify-content-center ">
+          <div className="scan-credits p-3 d-flex flex-column align-items-center">
             <div className="scan-logo d-flex justify-content-center">
               <img className=" w-75 " src={Scan} alt="scanner logo" />
             </div>
@@ -44,7 +45,7 @@ const CardDeals = () => {
               </p>
             </div>
           </div>
-          <div className="pay-method d-flex flex-column  align-items-center justify-content-center  w-50 h-25 ">
+          <div className="pay-method d-flex flex-column  align-items-center justify-content-center w-50 ">
             <div className="d-flex w-75 flex-row align-items-center  justify-content-between my-3 ">
               <div className="payment-method-para ">Pay Method</div>
               <div>
@@ -67,26 +68,48 @@ const CardDeals = () => {
               </div>
             </div>
           </div>
-          <div className="Online-analysis d-flex flex-column border w-75">
-            <div className="txt+ month d-flex flex-row">
-              <div> Online Analysis</div>
-              <div className="month+poly d-flex flex-row">
-                <div>Month</div>
-                <div>Polygon</div>
+          <div className="Online-analysis d-flex flex-column p-3 ">
+            <div className="d-flex flex-row align-items-center justify-content-between">
+              <div>
+                <h2 className="analysis-txt">Online Analysis</h2>
+              </div>
+              <div className="month-poly d-flex flex-row align-items-center justify-content-center">
+                <div className="analysis-txt d-flex align-items-center  justify-content-center">
+                  <p className="my-0"> 1 Month</p>
+                </div>
+                <div className="align-items-center justify-content-center">
+                  <img
+                    className=" "
+                    src={ArrowDropDown}
+                    alt="Arrow Drop Down logo"
+                  />
+                </div>
               </div>
             </div>
-            <div className="income+expense">
-              <div className="d-flex flex-column">
-                <div>$ 2,334,67 </div>
-                <div>Income </div>
+            <div className="income+expense d-flex flex-row align-items-center justify-content-between my-4">
+              <div className="d-flex flex-column ">
+                <div className="income-price">$ 2,334,67 </div>
+                <div className="income-txt">Income </div>
               </div>
               <div>
-                <div>$ 5.31M</div>
-                <div>Expenses</div>
+                <div className="expense-price">$ 5.31M</div>
+                <div className="expense-txt">Expenses</div>
               </div>
             </div>
-            <div className="grapg">Victor </div>
-            <div className="months"></div>
+            <div className="vector- d-flex align-items-center justify-content-center my-2">
+              <img src={Victor1} alt="victor 1 " />
+            </div>
+            <div className="months d-flex flex-row align-items-center justify-content-center">
+              <h4 className="mx-1 months-h4">Jan</h4>
+              <h4 className="mx-1  months-h4">Feb</h4>
+              <h4 className="mx-1 month-mar d-flex align-items-center justify-content-center">
+                Mar
+              </h4>
+              <h4 className="mx-1  months-h4">Apr</h4>
+              <h4 className="mx-1  months-h4">May</h4>
+              <h4 className="mx-1  months-h4">Jun</h4>
+              <h4 className="mx-1  months-h4">Jul</h4>
+            </div>
           </div>
         </div>
       </div>
