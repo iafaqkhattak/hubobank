@@ -7,6 +7,7 @@ import CardDeals from "./pages/cardDeals/CardDeals";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Companies from "./pages/companies/Companies";
 import Services from "./pages/services/Services";
+import Footer from "./pages/footer/Footer";
 import "../src/App.css";
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <AboutUs />
       <Companies />
       <Services />
+      <Footer />
     </div>
   );
 };
