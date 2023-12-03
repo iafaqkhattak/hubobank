@@ -5,6 +5,8 @@ import HowWeWork from "./pages/howWeWork/HowWeWork";
 import Downloads from "./pages/downloads/Downloads";
 import CardDeals from "./pages/cardDeals/CardDeals";
 import AboutUs from "./pages/aboutUs/AboutUs";
+import Companies from "./pages/companies/Companies";
+import Services from "./pages/services/Services";
 import "../src/App.css";
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Downloads />
       <CardDeals />
       <AboutUs />
+      <Companies />
+      <Services />
     </div>
   );
 };
